@@ -1,6 +1,6 @@
 # person.rb
 
-class Person
+class Person(name)
   
   def talk
     puts "Hello World!"
@@ -11,5 +11,7 @@ class Person
   end
 end
   
+kat = Person.new("Kat")
 
+kat.talk
 
