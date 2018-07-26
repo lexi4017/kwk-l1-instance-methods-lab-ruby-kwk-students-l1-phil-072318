@@ -12,7 +12,7 @@ end
 end 
 
 fido = Dog.new("Fido")
-snoopy = Dogs.new("Snoopy")
+snoopy = Dog.new("Snoopy")
 lassie = Dog.new("Lassie")
 
 bark
