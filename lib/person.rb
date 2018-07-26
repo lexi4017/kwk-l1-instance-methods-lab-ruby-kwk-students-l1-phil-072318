@@ -16,5 +16,5 @@ end
   
 kat = Person.new("Kat")
 
-kat.talk
+kat.walk
 
