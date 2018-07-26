@@ -1,15 +1,15 @@
 # person.rb
 
 class Person
-  def initialize
+  def initialize(name)
     @name = name
   end
   
-  def talk(name)
+  def talk
     puts "Hello World!"
   end
   
-  def walk(name)
+  def walk
     puts "The Person is walking"
   end
 end
