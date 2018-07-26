@@ -6,7 +6,6 @@ def initialize(name)
   @name = name
   end
 def bark
-  
   puts "Woof!"
 end
 
@@ -20,5 +19,5 @@ fido = Dog.new("Fido")
 snoopy = Dog.new("Snoopy")
 lassie = Dog.new("Lassie")
 
-puts fido.sit
+puts snoopy.bark
   
