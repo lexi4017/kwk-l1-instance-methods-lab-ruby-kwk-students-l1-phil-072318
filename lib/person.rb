@@ -1,6 +1,9 @@
 # person.rb
 
 class Person
+  def initialize
+    @name = name
+  end
   
   def talk(name)
     puts "Hello World!"
