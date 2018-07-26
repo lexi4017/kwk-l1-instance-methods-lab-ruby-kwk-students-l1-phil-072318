@@ -1,12 +1,12 @@
 # person.rb
 
-class Person(name)
+class Person
   
-  def talk
+  def talk(name)
     puts "Hello World!"
   end
   
-  def walk
+  def walk(name)
     puts "The Person is walking"
   end
 end
