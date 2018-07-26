@@ -20,5 +20,5 @@ fido = Dog.new("Fido")
 snoopy = Dog.new("Snoopy")
 lassie = Dog.new("Lassie")
 
-puts snoopy.bark
+puts fido.bark
   
